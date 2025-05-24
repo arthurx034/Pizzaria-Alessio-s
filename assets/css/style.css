@@ -212,3 +212,28 @@ ul {
     color: #ffa500;
     margin-top: 30px;
 }
+
+@media (max-width: 460px) {
+
+    .rodape-info,
+    ul {
+        display: grid;
+        text-align: center;
+    }
+
+    .cardapio-item {
+        margin: auto;
+        width: 90%;
+    }
+
+    nav a {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cardapio-item {
+        margin: 0;
+        width: 85%;
+    }
+}
